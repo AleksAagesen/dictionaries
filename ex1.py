@@ -25,10 +25,10 @@ my_dict_3 = {key: '0' for key in my_dict.items()}
 for key_val in my_dict_3.items():
     print(f'info: {key_val}')
 
-my_dict4 = {}
+my_dict5 = {}
 
 for data in [my_dict, my_dict_3]:
-    my_dict4.update(data)
+    my_dict5.update(data)
 
-for key_val in my_dict4.items():
+for key_val in my_dict5.items():
     print(f'info: {key_val}')
